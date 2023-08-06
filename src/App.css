@@ -13,19 +13,37 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-upload-container {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.upload-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.uploaded-image-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.uploaded-image-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes App-logo-spin {
